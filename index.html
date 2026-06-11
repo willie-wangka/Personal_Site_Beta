@@ -1,113 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willie Wang — AI & Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!--Hero Section-->
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Port<span>folio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-            </ul>
-            <a href="#" class="btn">Contact</a>
-        </nav>
-        <div class="content">
-            <h4>Hello, My name is</h4>
-            <h1>Willie Wang</h1>
-            <h3>I am a Game Designer & Web Developer.</h3>
-            <div class="newslatter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Enter your email">
-                    <input type="submit" name="submit" value="Submit">
-                </form>
-            </div>
-        </div>
+
+  <!-- NAV -->
+  <nav>
+    <h2 class="logo">Willie<span>.</span></h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+    <a href="#contact" class="btn">Contact</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h4>Hello, my name is</h4>
+      <h1>Willie<br><span>Wang</span></h1>
+      <h3>AI & Full-Stack Developer based in San Francisco.</h3>
+      <div class="hero-tags">
+        <span class="tag">Claude API</span>
+        <span class="tag">React</span>
+        <span class="tag">Python / Flask</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Game Design</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="cta-primary">View My Work</a>
+        <a href="https://github.com/willie-wangka" target="_blank" class="cta-secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
     </div>
-    <!--About-->
-    <section class="about">
-        <div class="main">
-            <img src="./images/portrait.png" alt="portrait">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Designer & Developer</h5>
-                <p>I am an aspiring game designer with a strong academic background, having earned a degree in Games & Playable Media from the University of California, Santa Cruz. I am committed to excellence and am experienced in quality assurance and have demonstrated success in both team-based and solo projects. 
-                </p>
-                <button type="button">Let's Connect</button>
-            </div>
-        </div>
-    </section>
+  </section>
 
-<!--Skills-->
-<div class="skills">
-    <div class="title">
-        <h2>My Skills</h2>
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <img src="./images/portrait.png" alt="Willie Wang portrait">
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h5>Developer & Builder</h5>
+        <p>I'm a full-stack developer and recent UC Santa Cruz graduate (B.A. Games & Playable Media) with a focus on AI-integrated applications. I've shipped products across multiple competitive hackathons — building autonomous AI agents, voice/vision apps, and developer tools using the Claude API, React, Python, and Flask.</p>
+        <p>When I'm not building, I'm learning guitar and exploring new music.</p>
+        <a href="https://www.linkedin.com/in/willie-wang-32ba8b25b/" target="_blank">Let's Connect</a>
+      </div>
     </div>
+  </section>
 
-    <div class="box">
-        <div class="card">
-            <i class="fa-solid fa-gamepad"></i>
-            <h5>Game Design</h5>
-            <div class="pra">
-                <p>Every game should be a passion project. If you do not have a passion to create games it will display in the product.</p>
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <h2>My <span>Projects</span></h2>
+      <p>AI-integrated apps, hackathon builds, and full-stack tools.</p>
+    </div>
+    <div class="projects-grid">
 
-                <p style="text-align: center;">
-                    <a class="button" href="#">Read More</a>
-                </p>
-            </div>
+      <div class="project-card">
+        <div class="award-badge"><i class="fa-solid fa-trophy"></i> Top 9 Finish</div>
+        <span class="project-tag">Hackathon</span>
+        <h3>PokeeClaw</h3>
+        <p>AI-powered job search and application tracking platform. Automates job discovery, tracks application status, and uses AI to match and prioritize listings.</p>
+        <div class="project-stack">
+          <span class="stack-pill">React</span>
+          <span class="stack-pill">Flask</span>
+          <span class="stack-pill">Claude API</span>
+          <span class="stack-pill">Python</span>
         </div>
-
-        <div class="card">
-            <i class="fa-solid fa-bars"></i>
-            <h5>Web Development</h5>
-            <div class="pra">
-                <p>Every website should work across all devices and work as fast as possible.</p>
-
-                <p style="text-align: center;">
-                    <a class="button" href="#">Read More</a>
-                </p>
-            </div>
+        <div class="project-links">
+          <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
         </div>
+      </div>
 
-        <div class="card">
-            <i class="fa-solid fa-bell"></i>
-            <h5>Web Development</h5>
-            <div class="pra">
-                <p>Every website should work across all devices and work as fast as possible.</p>
-
-                <p style="text-align: center;">
-                    <a class="button" href="#">Read More</a>
-                </p>
-            </div>
+      <div class="project-card">
+        <span class="project-tag">Scalekit x Apify Hackathon</span>
+        <h3>ENVOY</h3>
+        <p>Autonomous AI sales outreach agent that researches prospects, crafts personalized messages, and manages end-to-end outreach pipelines without human input.</p>
+        <div class="project-stack">
+          <span class="stack-pill">Claude API</span>
+          <span class="stack-pill">Apify</span>
+          <span class="stack-pill">Python</span>
+          <span class="stack-pill">React</span>
         </div>
-</div>
+        <div class="project-links">
+          <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
 
-<!--Contact-->
-<div class="contact">
-    <p>Let Me Get Help You Create A Beautiful Game And Website</p>
-    <a class="button-two" href="#">Hire Me</a>
-</div>
+      <div class="project-card">
+        <span class="project-tag">Voice/Vision Hackathon</span>
+        <h3>Nova</h3>
+        <p>AI mock interviewer featuring a real-time lip-synced avatar. Conducts full interviews, gives spoken feedback, and adapts questions based on your responses.</p>
+        <div class="project-stack">
+          <span class="stack-pill">React</span>
+          <span class="stack-pill">ElevenLabs</span>
+          <span class="stack-pill">Claude API</span>
+          <span class="stack-pill">Python</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
 
-<!--footer-->
-<footer>
-    <p>Willie Wang</p>
+      <div class="project-card">
+        <span class="project-tag">MeetStream x Scalekit</span>
+        <h3>MeetStream AI</h3>
+        <p>In-meeting AI agent that listens to live conversations and automatically creates and assigns tickets in real time — no manual follow-up needed.</p>
+        <div class="project-stack">
+          <span class="stack-pill">JavaScript</span>
+          <span class="stack-pill">Claude API</span>
+          <span class="stack-pill">EmailJS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag">SaaS Tool</span>
+        <h3>NoteTracer</h3>
+        <p>Guitar tab learning app that uses the Web Audio API to listen to your playing in real time and match it against tab notation — like a visual tutor for guitar.</p>
+        <div class="project-stack">
+          <span class="stack-pill">JavaScript</span>
+          <span class="stack-pill">Web Audio API</span>
+          <span class="stack-pill">HTML/CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-tag">UC Santa Cruz Capstone</span>
+        <h3>Ravenwood Grove</h3>
+        <p>Fully playable 3D game built as a senior capstone project. Designed and shipped solo — from concept, level design, and mechanics through final release.</p>
+        <div class="project-stack">
+          <span class="stack-pill">Godot</span>
+          <span class="stack-pill">C#</span>
+          <span class="stack-pill">Blender</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-title">
+      <h2>My <span>Skills</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-robot"></i>
+        <h5>AI Development</h5>
+        <p>Claude API, LLM agents, RAG pipelines, prompt engineering, ElevenLabs, MCP</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h5>Full-Stack</h5>
+        <p>React, Flask, Python, JavaScript, HTML/CSS, SQL, REST APIs, Vercel</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-gamepad"></i>
+        <h5>Game & 3D</h5>
+        <p>Godot, Unity, Unreal Engine, C#, Blender, 3D design, game mechanics</p>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-palette"></i>
+        <h5>Design & Creative</h5>
+        <p>Figma, Adobe Creative Suite, Blender, UI/UX, motion, CapCut</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Let's Work <span>Together</span></h2>
+    <p>Open to full-stack, AI, and creative tech roles in San Francisco.</p>
+    <div class="contact-links">
+      <a href="mailto:10williew@gmail.com" class="primary"><i class="fa-solid fa-envelope"></i> Email Me</a>
+      <a href="https://www.linkedin.com/in/willie-wang-32ba8b25b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-name">Willie Wang</p>
     <div class="social">
-        <a href="https://www.linkedin.com/in/willie-wang-32ba8b25b/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/willie_wangka?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://github.com/willie-wangka"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/willie-wang-32ba8b25b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/willie_wangka" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/willie-wangka" target="_blank"><i class="fa-brands fa-github"></i></a>
     </div>
-    <p class="end">CopyRight By Willie Wang</p>
-</footer>
+    <p class="end">© 2026 Willie Wang</p>
+  </footer>
 
 </body>
 </html>
